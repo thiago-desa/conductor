@@ -31,6 +31,12 @@ Copy this bot into your own Grok Bot: [Primary Bot template](https://x.ai/bot/jh
 | `examples/fictional-routing-day.md` | Fully fictional multi-bot day |
 | `ATTRIBUTION.md` | Design influences |
 | `LICENSE` | MIT |
+| `AGENTS.md` | Short agent instructions, boundaries, definition of done |
+| `CONTRIBUTING.md` | How to propose changes safely |
+| `docs/failure-modes.md` | Failure modes and troubleshooting |
+| `evals/` | Golden-set behavioral regressions |
+| `scripts/check.py` | Secrets/PII/em-dash/link hygiene checks |
+| `scripts/github-workflow-checks.yml` | GitHub Actions workflow (copy to `.github/workflows/checks.yml` when the token has `workflow` scope) |
 
 ## Proof-of-work notes
 
@@ -40,6 +46,10 @@ This repository is a cleaned public snapshot of a working primary-bot design:
 - Hand-off rules that preserve context without dumping secrets
 - Proactive check-ins only when something is waiting on the owner
 - Getting-started skill that records writing rules for the whole fleet
+
+## Review findings
+
+Portfolio review notes (repos and templates): [docs/review-2026-11-09.md in repo-operational-head](https://github.com/thiago-desa/repo-operational-head/blob/main/docs/review-2026-11-09.md).
 
 ## License and attribution
 
