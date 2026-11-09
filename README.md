@@ -17,8 +17,7 @@ People who run several specialist bots need a single front door. Without a route
 
 ## Import into Grok Bot
 
-<!-- TEMPLATE_SHARE_LINK: paste the public Grok Bot template URL here once the bot has exported and the owner has confirmed the review card. -->
-_Template link pending owner confirmation._
+Copy this bot into your own Grok Bot: [Primary Bot template](https://x.ai/bot/jhJ_YXyW7fK0r47PYgW1b)
 
 ## Key files
 
