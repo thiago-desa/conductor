@@ -1,4 +1,4 @@
-# grok-bot-router
+# conductor
 
 Primary Grok Bot that takes any task and routes it to the right specialist bot in the owner's fleet, or handles it directly when no specialist fits.
 
@@ -9,7 +9,7 @@ People who run several specialist bots need a single front door. Without a route
 ## How to use with Grok Bot
 
 1. Create a new Grok Bot (suggested name: `Grok Bot` or `primary`).
-2. Paste the contents of `agents/grok-bot-router.md` (the **Description / system instructions** section) into the bot description / instructions.
+2. Paste the contents of `agents/conductor.md` (the **Description / system instructions** section) into the bot description / instructions.
 3. Keep `skills/routing.md` and `skills/primary-bot-getting-started.md` alongside the bot.
 4. Set this bot as the owner's primary bot.
 5. On first run, list the other bots, save each one's purpose to memory, and confirm writing rules and time zone.
@@ -23,7 +23,7 @@ Copy this bot into your own Grok Bot: [Primary Bot template](https://x.ai/bot/jh
 
 | Path | What it is |
 |------|------------|
-| `agents/grok-bot-router.md` | Full sanitized agent definition |
+| `agents/conductor.md` | Full sanitized agent definition |
 | `skills/routing.md` | How to classify a task and hand it off |
 | `skills/primary-bot-getting-started.md` | First-conversation setup |
 | `docs/architecture.md` | Primary / specialist fleet model |

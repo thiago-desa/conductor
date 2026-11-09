@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Short, high-signal instructions for coding agents working in `grok-bot-router`.
+Short, high-signal instructions for coding agents working in `conductor`.
 
 ## What this repo is
 

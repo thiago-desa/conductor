@@ -1,6 +1,6 @@
 # Architecture
 
-grok-bot-router is a long-lived primary agent in front of a specialist fleet.
+conductor is a long-lived primary agent in front of a specialist fleet.
 
 ## Goals
 

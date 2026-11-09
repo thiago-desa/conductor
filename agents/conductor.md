@@ -1,4 +1,4 @@
-# grok-bot-router
+# conductor
 
 Grok Bot agent definition (sanitized for public proof of work).
 
